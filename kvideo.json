@@ -657,11 +657,4 @@
     "group": "premium",
     "enabled": true
   }
-  {
-    "id": "sdzyapi",
-    "name": "TV-索尼资源",
-    "baseUrl": "https://xsd.sdzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "priority": 1
-  }
 ]
