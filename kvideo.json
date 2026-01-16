@@ -98,13 +98,6 @@
     "priority": 1
   },
   {
-    "id": "AV-Naixxzy",
-    "name": "乃想想",
-    "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
-    "group": "normal",
-    "priority": 1
-  },
-  {
     "id": "AV-hsckzy",
     "name": "AV黄色仓库",
     "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
@@ -647,6 +640,76 @@
     "id": "xinlangapi",
     "name": "TV-新浪资源",
     "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "1",
+    "name": "1-naixxzy",
+    "baseUrl": "https://dnz.1970.qzz.io/1",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "2",
+    "name": "2-hsckzy",
+    "baseUrl": "https://dnz.1970.qzz.io/2",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "3",
+    "name": "3-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/3",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "5",
+    "name": "5-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/5",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "6",
+    "name": "6-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/6",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "7",
+    "name": "7-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/7",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "8",
+    "name": "8-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/8",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "9",
+    "name": "9-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/9",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "10",
+    "name": "10-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/10",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "4",
+    "name": "4-jingpinx",
+    "baseUrl": "https://dnz.1970.qzz.io/4",
     "group": "normal",
     "priority": 1
   },
