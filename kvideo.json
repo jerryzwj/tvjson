@@ -649,5 +649,13 @@
     "baseUrl": "https://apidanaizi.com/api.php/provide/vod",
     "group": "premium",
     "enabled": true
-  }
+  },
+
+  {
+    "id": "AV-SM",
+    "name": "色猫",
+    "baseUrl": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
+    "group": "normal",
+    "priority": 1
+  }  
 ]
