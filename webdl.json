@@ -1,7 +1,7 @@
 [
     {"name":"TV旺旺短剧","url":"https://wwzy.tv/api.php/provide/vod"},
     {"name":"TV非凡资源","url":"https://api.ffzyapi.com/api.php/provide/vod"},
-    {"name":"大子","url":"https://apidanaizi.com/api.php/provide/vod"},
+    {"name":"dnz","url":"https://apidanaizi.com/api.php/provide/vod"},
     {"name":"TV樱花资源","url":"https://m3u8.apiyhzy.com/api.php/provide/vod"},
     {"name":"TV暴风资源","url":"https://bfzyapi.com/api.php/provide/vod"},
     {"name":"TV山海资源","url":"https://zy.sh0o.cn/api.php/provide/vod"},
