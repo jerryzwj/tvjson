@@ -1592,9 +1592,9 @@
       "url": "Sequence"
     },
     {
-      "name": "KatelyaTV内置解析",
+      "name": "无水印资源解析接口",
       "type": 1,
-      "url": "https://kt.1970.qzz.io/api/parse?url=",
+      "url": "https://wsyzy.top/m3u8/?url=",
       "ext": {
         "flag": [
           "qiyi",
@@ -1642,9 +1642,9 @@
   ],
   "lives": [
     {
-      "name": "KatelyaTV直播",
+      "name": "学外语直播",
       "type": 0,
-      "url": "https://kt.1970.qzz.io/api/live/channels",
+      "url": "https://raw.githubusercontent.com/jerryzwj/tvjson/refs/heads/main/iptv_custom%20(2).m3u",
       "epg": "",
       "logo": ""
     }
