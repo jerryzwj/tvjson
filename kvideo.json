@@ -315,6 +315,13 @@
     "priority": 1
   },
   {
+    "id": "AIvin1",
+    "name": "AIvin",
+    "baseUrl": "http://lbapiby.com/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true
+  },
+  {
     "id": "AV-lbapiby",
     "name": "AV--AIvin-",
     "baseUrl": "http://lbapiby.com/api.php/provide/vod",
