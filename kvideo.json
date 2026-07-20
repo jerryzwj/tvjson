@@ -713,11 +713,18 @@
     "group": "premium",
     "enabled": true
   },
+    {
+    "id": "AV-doudou",
+    "name": "豆豆资源",
+    "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
+    "group": "premium",
+    "enabled": true
+  },
   {
     "id": "AV-SM",
     "name": "色猫",
     "baseUrl": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
-    "group": "normal",
-    "priority": 1
+    "group": "premium",
+    "enabled": true
   }  
 ]
