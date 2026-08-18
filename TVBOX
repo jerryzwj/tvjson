@@ -136,6 +136,25 @@
       ]
     },
     {
+      "key": "apiyutu",
+      "name": "🔞玉兔代理",
+      "type": 1,
+      "api": "https://1.winjun.qzz.io",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://1.winjun.qzz.io",
+      "timeout": 30,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "纪录片",
+        "短剧"
+      ]
+    },
+    {
       "key": "fhapi9.com",
       "name": "🔞番号资源",
       "type": 1,
