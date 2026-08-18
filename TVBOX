@@ -22,6 +22,44 @@
       ]
     },
     {
+      "key": "91md",
+      "name": "🔞麻豆代理",
+      "type": 1,
+      "api": "https://91.winjun.qzz.io",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://91.winjun.qzz.io",
+      "timeout": 30,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "纪录片",
+        "短剧"
+      ]
+    },
+    {
+      "key": "91md.me",
+      "name": "🔞麻豆视频",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://91md.me",
+      "timeout": 30,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "纪录片",
+        "短剧"
+      ]
+    },
+    {
       "key": "91jpzyw.com",
       "name": "🔞91-精品-",
       "type": 1,
@@ -139,11 +177,11 @@
       "key": "apiyutu",
       "name": "🔞玉兔代理",
       "type": 1,
-      "api": "https://1.winjun.qzz.io",
+      "api": "https://yutu.winjun.qzz.io",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://1.winjun.qzz.io",
+      "ext": "https://yutu.winjun.qzz.io",
       "timeout": 30,
       "categories": [
         "电影",
