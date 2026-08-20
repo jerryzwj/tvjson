@@ -1,0 +1,388 @@
+{
+  "version": "1.0",
+  "sites": [
+    {
+      "key": "myz14mjg",
+      "name": "91md",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "om5w0z74",
+      "name": "91",
+      "type": 1,
+      "api": "https://91.winjun.qzz.io",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "42ns4nyv",
+      "name": "91md",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "hnruk3fs",
+      "name": "91jpzyw",
+      "type": 1,
+      "api": "https://91jpzyw.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "418rxwb7",
+      "name": "lbapiby",
+      "type": 1,
+      "api": "http://lbapiby.com/api.php/provide/vodhttps://api.bwzyz.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "2mqyeawj",
+      "name": "api",
+      "type": 1,
+      "api": "https://api.souavzy.vip/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "xu3i7jiv",
+      "name": "155api",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "o0283wtx",
+      "name": "apiyutu",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "c3dca6qy",
+      "name": "yutu",
+      "type": 1,
+      "api": "https://yutu.winjun.qzz.io",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "gd2zn357",
+      "name": "fhapi9",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "8va03dw5",
+      "name": "jingpinx",
+      "type": 1,
+      "api": "https://www.jingpinx.com/api.php/provide/vod\"",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "cskojyb4",
+      "name": "apilsbzy1",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "bhn92mfx",
+      "name": "thzy1",
+      "type": 1,
+      "api": "https://thzy1.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "avhqvilq",
+      "name": "yyzywcj",
+      "type": 1,
+      "api": "https://www.yyzywcj.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "j0ol2gqg",
+      "name": "api",
+      "type": 1,
+      "api": "https://api.xiaojizy.live/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "fo978wdk",
+      "name": "hsckzy",
+      "type": 1,
+      "api": "https://hsckzy.xyz/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "f6sjudpm",
+      "name": "apidanaizi",
+      "type": 1,
+      "api": "https://apidanaizi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "d4c0wwek",
+      "name": "jkunzyapi",
+      "type": 1,
+      "api": "https://jkunzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "rt52w913",
+      "name": "lbapi9",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "0ae8v3ts",
+      "name": "naixxzy",
+      "type": 1,
+      "api": "https://Naixxzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "pw7x06k3",
+      "name": "beiyong",
+      "type": 1,
+      "api": "https://beiyong.slapibf.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "7jdryb3l",
+      "name": "apilj",
+      "type": 1,
+      "api": "https://apilj.com/api.php/provide/vod\"",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "1879ecxf",
+      "name": "shayuapi",
+      "type": 1,
+      "api": "https://shayuapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "xayg0km1",
+      "name": "xzybb2",
+      "type": 1,
+      "api": "https://xzybb2.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "m73qo60g",
+      "name": "api",
+      "type": 1,
+      "api": "https://api.douapi.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "7g515697",
+      "name": "api",
+      "type": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "h8j075ud",
+      "name": "heiliaozyapi",
+      "type": 1,
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "gxsuia2u",
+      "name": "api",
+      "type": 1,
+      "api": "https://api.sexnguon.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "th0h7ak8",
+      "name": "ckzy",
+      "type": 1,
+      "api": "https://ckzy.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "7fyhshpz",
+      "name": "xxibaozyw",
+      "type": 1,
+      "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "dhyn1283",
+      "name": "xiangjiaozyw",
+      "type": 1,
+      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "bqk4kdeg",
+      "name": "msnii",
+      "type": 1,
+      "api": "https://www.msnii.com/api/json.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "ewj23ftg",
+      "name": "pgxdy",
+      "type": 1,
+      "api": "https://www.pgxdy.com/api/json.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "h155krdf",
+      "name": "kxgav",
+      "type": 1,
+      "api": "https://www.kxgav.com/api/json.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "ca4o9mgf",
+      "name": "pz",
+      "type": 1,
+      "api": "https://pz.168188.dpdns.org/?url=https://xingba222.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "46w31v8a",
+      "name": "caiji",
+      "type": 1,
+      "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "sqwdwlcl",
+      "name": "aosikazy",
+      "type": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "xjer2xnw",
+      "name": "siwazyw",
+      "type": 1,
+      "api": "https://siwazyw.tv/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    }
+  ],
+  "lives": [],
+  "parses": [],
+  "flags": []
+}
