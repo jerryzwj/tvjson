@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh‑CN">
+<head>
+<meta charset="UTF‑8">
+<title>Helios订阅JSON生成器</title>
+<style>
+*{box-sizing:border-box;font-family:system-ui}
+body{max-width:1100px;margin:20px auto;padding:0 16px;background:#f4f5f7}
+.box{background:#fff;padding:20px;border-radius:10px;margin-bottom:16px;box-shadow:0 1px 4px #00000018}
+h2{margin-top:0;color:#222}
+textarea{width:100%;height:160px;padding:10px;font-size:14px;border:1px solid #ccc;border-radius:6px;resize:vertical}
+pre{width:100%;padding:12px;background:#1e1e1e;color:#eee;white-space:pre-wrap;word-break:break-all;border-radius:6px;max-height:320px;overflow:auto}
+.btn{padding:9px 18px;background:#2563eb;color:white;border:0;border-radius:6px;cursor:pointer;margin:6px 4px}
+.btn:hover{background:#1d4ed8}
+</style>
+</head>
+<body>
+
+<div class="box">
+    <h2>输入API列表 (一行一条URL)</h2>
+    <textarea id="apiInput" placeholder="https://api1.xxx.com
+https://api2.xxx.com"></textarea>
+    <br>
+    <button class="btn" onclick="generate()">生成JSON+Base58订阅</button>
+</div>
+
+<div class="box">
+    <h2>生成 JSON 配置</h2>
+    <pre id="outJson"></pre>
+    <button class="btn" onclick="copyJson()">复制JSON</button>
+</div>
+
+<div class="box">
+    <h2>Base58 订阅字符串 (保存到txt用于SUBSCRIPTION_URL)</h2>
+    <pre id="outB58"></pre>
+    <button class="btn" onclick="copyB58()">复制订阅串</button>
+</div>
+
+
+<script>
+//===== Base58 编码实现 =====
+const ALPHABET = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
+function utf8ToBytes(str){
+    return new TextEncoder().encode(str);
+}
+function base58Encode(bytes){
+    let zeroes = 0;
+    while(zeroes<bytes.length && bytes[zeroes]===0) zeroes++;
+    let num = 0n;
+    for(let i=zeroes;i<bytes.length;i++){
+        num = (num << 8n) + BigInt(bytes[i]);
+    }
+    let res = '';
+    while(num>0n){
+        const rem = Number(num % 58n);
+        num = num / 58n;
+        res = ALPHABET[rem] + res;
+    }
+    return '1'.repeat(zeroes)+res;
+}
+
+//=====工具函数=====
+function randomKey(len=8){
+    const pool = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    let s='';
+    for(let i=0;i<len;i++) s+=pool[Math.floor(Math.random()*pool.length)];
+    return s;
+}
+
+function extractName(url){
+    try{
+        const u = new URL(url);
+        let host = u.hostname;
+        host = host.replace(/^www\./,'');
+        const arr = host.split('.');
+        return arr[0];
+    }catch(e){
+        return 'site_'+randomKey(4);
+    }
+}
+
+//=====生成主逻辑=====
+function generate(){
+    const raw = document.getElementById('apiInput').value;
+    const lines = raw.split('\n').map(x=>x.trim()).filter(x=>x!=='');
+    const sites = [];
+    for(const api of lines){
+        sites.push({
+            key:randomKey(),
+            name:extractName(api),
+            type:1,
+            api:api,
+            searchable:1,
+            quickSearch:1,
+            filterable:1,
+            ext:""
+        })
+    }
+    const cfg = {
+        version:"1.0",
+        sites:sites,
+        lives:[],
+        parses:[],
+        flags:[]
+    };
+    const jsonText = JSON.stringify(cfg,null,2);
+    document.getElementById('outJson').innerText = jsonText;
+    const buf = utf8ToBytes(jsonText);
+    const b58str = base58Encode(buf);
+    document.getElementById('outB58').innerText = b58str;
+}
+
+async function copyJson(){
+    const t = document.getElementById('outJson').innerText;
+    await navigator.clipboard.writeText(t);
+    alert('JSON已复制');
+}
+async function copyB58(){
+    const t = document.getElementById('outB58').innerText;
+    await navigator.clipboard.writeText(t);
+    alert('Base58订阅串已复制');
+}
+</script>
+</body>
+</html>
