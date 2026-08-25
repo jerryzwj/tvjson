@@ -49,8 +49,8 @@
     "priority": 1
   },
   {
-    "id": "AV-thzy1",
-    "name": "AV桃花资源",
+    "id": "-thzy1",
+    "name": "桃花资源",
     "baseUrl": "https://thzy1.me/api.php/provide/vod",
     "group": "premium",
     "enabled": true
@@ -241,8 +241,8 @@
     "id": "AV-xiaojizy",
     "name": "AV小鸡资源",
     "baseUrl": "https://api.xiaojizy.live/provide/vod",
-    "group": "normal",
-    "priority": 1
+    "group": "premium",
+    "enabled": true
   },
   {
     "id": "TV-xinlangapi",
