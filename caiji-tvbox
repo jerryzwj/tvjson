@@ -26,19 +26,19 @@
     },
     {
       "name": "奥斯卡资源API",
-      "url": "https://aosikazy.com/api.php/provide/vod/at/xml/"
+      "url": "https://aosikazy.com/api.php/provide/vod/at/xmlsea/"
     },
     {
       "name": "奶香香资源站",
-      "url": "https://Naixxzy.com/api.php/provide/vod/at/xml"
+      "url": "https://naixxzy.com/api.php/provide/vod/at/xml/"
     },
     {
       "name": "玉兔资源",
       "url": "https://apiyutu.com/api.php/Seacms/vod/"
     },
     {
-      "name": "玉兔资源·2",
-      "url": "https://apiyutu.com/api.php/provide/vod/"
+      "name": "玉兔资源·xml",
+      "url": "https://apiyutu.com/api.php/provide/vod/at/xml/"
     },
     {
       "name": "黑料资源网",
@@ -50,7 +50,7 @@
     },
     {
       "name": "ikun资源网",
-      "url": "https://ikunzyapi.com/api.php/provide/vod"
+      "url": "https://ikunzyapi.com/api.php/provide/vod/at/xml/"
     },
     {
       "name": "ikun资源网·xml",
@@ -78,7 +78,7 @@
     },
     {
       "name": "大众资源",
-      "url": "https://cdn.dzzyapi.com/api.php/provide/vod/"
+      "url": "https://cdn.dzzyapi.com/api.php/provide/vod/at/xmlsea/"
     },
     {
       "name": "新芒果资源站",
@@ -106,7 +106,7 @@
     },
     {
       "name": "虎牙资源",
-      "url": "https://www.huyaapi.com/api.php/provide/vod/at/json"
+      "url": "https://www.huyaapi.com/api.php/provide/vod/at/xmlsea/"
     },
     {
       "name": "光速资源站",
@@ -126,11 +126,11 @@
     },
     {
       "name": "百度资源·dbm3u8",
-      "url": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xml/"
+      "url": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xmlsea/"
     },
     {
       "name": "茅台资源站",
-      "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/"
+      "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/"
     },
     {
       "name": "茅台资源站·mtyun",
@@ -138,7 +138,7 @@
     },
     {
       "name": "最大资源网",
-      "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xml/"
+      "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xmlsea/"
     },
     {
       "name": "最大资源网·2",
@@ -154,7 +154,7 @@
     },
     {
       "name": "U酷资源网",
-      "url": "https://api.ukuapi88.com/api.php/provide/vod/at/xmlsea/"
+      "url": "https://api.ukuapi88.com/api.php/provide/vod/at/xml/"
     },
     {
       "name": "如意资源网",
@@ -174,7 +174,7 @@
     },
     {
       "name": "暴风资源网",
-      "url": "https://bfzyapi.com/api.php/provide/vod/"
+      "url": "https://bfzyapi.com/api.php/provide/vod/at/xml/"
     },
     {
       "name": "暴风资源网·2",
@@ -270,7 +270,7 @@
     },
     {
       "name": "红牛资源",
-      "url": "https://www.hongniuzy2.com/api.php/provide/vod/at/xml/"
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod/at/xmlsea/"
     },
     {
       "name": "红牛资源·hnyun",
