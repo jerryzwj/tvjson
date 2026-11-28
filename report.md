@@ -1,6 +1,6 @@
 # API 健康报告（每日自动采集 + 连通检测）
 
-最近更新：2026-11-28 08:23 CST　|　数据来源：[yszzq 采集接口目录](https://www.yszzq.com/ziyuan/api/)
+最近更新：2026-11-28 08:25 CST　|　数据来源：[yszzq 采集接口目录](https://www.yszzq.com/ziyuan/api/)
 
 - 采集到的源：68
 - 输出到 `caiji-tvbox`：42
@@ -15,17 +15,17 @@
 | ✅ | 星夜资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/254.html) | [API](https://xyezy.com/api.php/provide/vod/) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 看看资源影视采集接口大全 | [Link](https://www.yszzq.com/ziyuan/api/253.html) | [API](https://f-1.cc/api.php/provide/vod/) | ❌ | 3 | 1 | 75.0% | · · · · · · ✅ |
 | ✅ | 玉兔资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/169.html) | [API](https://apiyutu.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 黑料资源网采集接口大全 | [Link](https://www.yszzq.com/ziyuan/api/233.html) | [API](https://heiliaozyapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 黑料资源网采集接口大全 | [Link](https://www.yszzq.com/ziyuan/api/233.html) | [API](https://www.heiliaozyapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 大地资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/147.html) | [API](https://dadiapi.com/api.php) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 大地资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/147.html) | [API](https://dadiapi.com/api.php/provide/vod/) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 大地资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/147.html) | [API](https://dadiapi.com/sea_api.php) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 大地资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/147.html) | [API](https://dadiapi.com/feifei/) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 奥斯卡资源API采集接口大全 | [Link](https://www.yszzq.com/ziyuan/api/155.html) | [API](https://aosikazy.com/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 奶香香资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/185.html) | [API](https://Naixxzy.com/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 奶香香资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/185.html) | [API](https://naixxzy.com/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | ikun资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/188.html) | [API](https://ikunzyapi.com/api.php/seaxml/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 无水印资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/243.html) | [API](https://api.wsyzy.net/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 厂长资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/252.html) | [API](https://api.changzhang.tv/api.php/seacms/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 西瓜资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/244.html) | [API](https://caiji.xgzyapi.com/api.php/seacms/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 厂长资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/252.html) | [API](https://api.changzhang.tv/api.php/feifei/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 西瓜资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/244.html) | [API](https://caiji.xgzyapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 云解析资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/238.html) | [API](https://api.yparse.com/api/json) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 大众资源采集接口大全 | [Link](https://www.yszzq.com/ziyuan/api/247.html) | [API](https://cdn.dzzyapi.com/api.php/provide/vod/) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 新芒果资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/251.html) | [API](https://caiji.mgzyapi.com/api.php/provide/vod/) | ✅ | 3 | 1 | 75.0% | · · · · · · ✅ |
@@ -36,11 +36,11 @@
 | ✅ | 茅台资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/216.html) | [API](https://caiji.maotaizy.cc/api.php/provide/vod/) | ❌ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 鸭鸭（丫丫）资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/176.html) | [API](https://cj.yayazy.net/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 最大资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/236.html) | [API](https://api.zuidapi.com/api.php/provide/vod/) | ✅ | 4 | 1 | 80.0% | · · · · · · ✅ |
-| ✅ | 极速资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/183.html) | [API](https://jszyapi.com/api.php/provide/vod/) | ❌ | 5 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 量子资源网资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/142.html) | [API](https://cj.lziapi.com/api.php/provide/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 极速资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/183.html) | [API](https://jszyapi.com/api.php/provide/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 量子资源网资源采集接口 | [Link](https://www.yszzq.com/ziyuan/api/142.html) | [API](https://cj.lziapi.com/api.php/providedown/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 360资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/166.html) | [API](https://360zyzz.com/api.php/seaxml/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 如意资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/205.html) | [API](https://cj.rycjapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 无尽资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/195.html) | [API](https://api.wujinapi.me/api.php/provide/vod/) | ❌ | 4 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 无尽资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/195.html) | [API](https://api.wujinapi.me/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 暴风资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/184.html) | [API](https://bfzyapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 电影天堂采集综合资源接口 | [Link](https://www.yszzq.com/ziyuan/api/218.html) | [API](http://caiji.dyttzyapi.com/api.php/seacms/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 非凡资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/186.html) | [API](http://api.ffzyapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
@@ -52,13 +52,13 @@
 | ✅ | 优质资源库采集接口 | [Link](https://www.yszzq.com/ziyuan/api/149.html) | [API](https://api.yzzy-api.com/inc/api.php) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 优质资源库采集接口 | [Link](https://www.yszzq.com/ziyuan/api/149.html) | [API](https://api.yzzy-api.com/inc/apijson.php) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 天涯影视资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/221.html) | [API](https://tyyszyapi.com/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
-| ✅ | 爱奇艺资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/220.html) | [API](https://www.iqiyizyapi.com/api.php/provide/vod/) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
+| ✅ | 爱奇艺资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/220.html) | [API](https://www.iqiyizyapi.com/api.php/provide/vod/?cms=1) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ✅ | 猫眼资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/224.html) | [API](https://api.maoyanapi.top/api.php/provide/vod/) | ✅ | 3 | 1 | 75.0% | · · · · · · ✅ |
-| 🔁 | 光速资源站采集接口地址 | [Link](https://www.yszzq.com/ziyuan/api/135.html) | [API](https://api.guangsuapi.com/api.php/provide/vod/) | ❌ | 4 | 0 | 100.0% | · · · · · · ✅ |
+| 🔁 | 光速资源站采集接口地址 | [Link](https://www.yszzq.com/ziyuan/api/135.html) | [API](https://api.guangsuapi.com/api.php/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | 🔁 | 金鹰资源网苹果CMS采集接口 | [Link](https://www.yszzq.com/ziyuan/api/138.html) | [API](https://jyzyapi.com/provide/vod/) | ✅ | 4 | 0 | 100.0% | · · · · · · ✅ |
 | 🔁 | 速播资源采集规则地址 | [Link](https://www.yszzq.com/ziyuan/api/156.html) | [API](https://subocj.com/api.php/provide/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
 | 🔁 | 豪华资源网采集接口地址 | [Link](https://www.yszzq.com/ziyuan/api/180.html) | [API](https://hhzyapi.com/api.php/provide/vod/) | ✅ | 5 | 0 | 100.0% | · · · · · · ✅ |
-| 🔁 | 虎牙资源采集网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/230.html) | [API](https://www.huyaapi.com/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
+| 🔁 | 虎牙资源采集网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/230.html) | [API](https://www.huyaapi.com/api.php/provide/vod/) | ✅ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | 🔁 | OK资源采集网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/235.html) | [API](http://api.okzyw.net/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | 🔁 | 牛牛资源网采集接口 | [Link](https://www.yszzq.com/ziyuan/api/237.html) | [API](https://api.niuniuzy.me/api.php/provide/vod/) | ❌ | 3 | 0 | 100.0% | · · · · · · ✅ |
 | ⚠️ | 茅台资源站采集接口 | [Link](https://www.yszzq.com/ziyuan/api/216.html) | [API](https://caiji.maotaizy.cc/api.php/provide/art/) | - | 0 | 3 | 0.0% | · · · · · · ❌ |

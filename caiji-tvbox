@@ -14,7 +14,7 @@
     },
     {
       "name": "黑料资源网",
-      "url": "https://heiliaozyapi.com/api.php/provide/vod/"
+      "url": "https://www.heiliaozyapi.com/api.php/provide/vod/"
     },
     {
       "name": "大地资源",
@@ -38,7 +38,7 @@
     },
     {
       "name": "奶香香资源站",
-      "url": "https://Naixxzy.com/api.php/provide/vod/"
+      "url": "https://naixxzy.com/api.php/provide/vod/"
     },
     {
       "name": "ikun资源网",
@@ -50,11 +50,11 @@
     },
     {
       "name": "厂长资源",
-      "url": "https://api.changzhang.tv/api.php/seacms/vod/"
+      "url": "https://api.changzhang.tv/api.php/feifei/vod/"
     },
     {
       "name": "西瓜资源",
-      "url": "https://caiji.xgzyapi.com/api.php/seacms/vod/"
+      "url": "https://caiji.xgzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "云解析资源网",
@@ -102,7 +102,7 @@
     },
     {
       "name": "量子资源网资源",
-      "url": "https://cj.lziapi.com/api.php/provide/vod/"
+      "url": "https://cj.lziapi.com/api.php/providedown/vod/"
     },
     {
       "name": "360资源站",
@@ -162,7 +162,7 @@
     },
     {
       "name": "爱奇艺资源站",
-      "url": "https://www.iqiyizyapi.com/api.php/provide/vod/"
+      "url": "https://www.iqiyizyapi.com/api.php/provide/vod/?cms=1"
     },
     {
       "name": "猫眼资源站",
