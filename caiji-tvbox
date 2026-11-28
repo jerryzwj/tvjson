@@ -10,11 +10,11 @@
     },
     {
       "name": "玉兔资源",
-      "url": "https://apiyutu.com/api.php/Seacms/vod/"
+      "url": "https://apiyutu.com/api.php/provide/vod/"
     },
     {
       "name": "黑料资源网",
-      "url": "https://heiliaozyapi.com/api.php/provide/vod/"
+      "url": "https://www.heiliaozyapi.com/api.php/provide/vod/"
     },
     {
       "name": "大地资源",
@@ -42,7 +42,7 @@
     },
     {
       "name": "ikun资源网",
-      "url": "https://ikunzyapi.com/api.php/seaxml/vod/"
+      "url": "https://ikunzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "无水印资源网",
@@ -50,11 +50,11 @@
     },
     {
       "name": "厂长资源",
-      "url": "https://api.changzhang.tv/api.php/seacms/vod/"
+      "url": "https://api.changzhang.tv/api.php/feifei/vod/"
     },
     {
       "name": "西瓜资源",
-      "url": "https://caiji.xgzyapi.com/api.php/seacms/vod/"
+      "url": "https://caiji.xgzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "云解析资源网",
@@ -77,6 +77,14 @@
       "url": "http://caiji.jjzyapi.com/api.php/seacms/vod/"
     },
     {
+      "name": "虎牙资源",
+      "url": "https://www.huyaapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "光速资源站",
+      "url": "https://api.guangsuapi.com/api.php/provide/vod/"
+    },
+    {
       "name": "百度资源",
       "url": "https://api.apibdzy.com/api.php/provide/vod/"
     },
@@ -97,16 +105,12 @@
       "url": "https://api.zuidapi.com/api.php/provide/vod/"
     },
     {
-      "name": "极速资源网",
-      "url": "https://jszyapi.com/api.php/provide/vod/"
-    },
-    {
       "name": "量子资源网资源",
-      "url": "https://cj.lziapi.com/api.php/providedown/vod/"
+      "url": "https://cj.lziapi.com/api.php/seacms/vod/"
     },
     {
       "name": "360资源站",
-      "url": "https://360zyzz.com/api.php/seaxml/vod/"
+      "url": "https://360zyzz.com/api.php/provide/vod/"
     },
     {
       "name": "如意资源网",
@@ -118,7 +122,7 @@
     },
     {
       "name": "暴风资源网",
-      "url": "https://bfzyapi.com/api.php/provide/vod/"
+      "url": "https://bfzyapi.com/api.php/Seacms/vod/"
     },
     {
       "name": "电影天堂采集综合资源接口",
@@ -126,11 +130,15 @@
     },
     {
       "name": "非凡资源网",
-      "url": "http://api.ffzyapi.com/api.php/seacms/vod/"
+      "url": "http://api.ffzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "U酷资源网",
       "url": "https://api.ukuapi88.com/api.php/provide/vod/"
+    },
+    {
+      "name": "豪华资源网",
+      "url": "https://hhzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "新浪资源",

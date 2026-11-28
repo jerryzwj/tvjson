@@ -15,11 +15,11 @@ https://raw.githubusercontent.com/jerryzwj/tvjson/main/caiji-tvbox
 <!-- STATUS:START -->
 
 - 采集到的源：68
-- 输出到 `caiji-tvbox`：42
+- 输出到 `caiji-tvbox`：44
 - 今日连通：49
 - 今日不通（观察中）：19
 - 连续失败已剔除：0
-- 内容重复合并：7
+- 内容重复合并：5
 - 成人内容源已跳过：0
 
 <!-- STATUS:END -->
