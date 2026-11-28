@@ -7,7 +7,7 @@ import sys
 import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import get_text, new_session  # noqa: E402
+from common import clean_url, get_text, new_session  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -59,8 +59,8 @@ def list_pages(base, max_pages, session, timeout):
 
 
 def sanitize_api(raw):
-    """丢掉下载包、占位模板、本地地址等脏值，返回干净接口地址。"""
-    u = raw.strip().replace("https,//", "https://").replace("http,//", "http://")
+    """丢掉下载包、占位模板、本地地址等脏值，返回清洗并截断后的接口地址。"""
+    u = clean_url(raw)
     if not re.match(r"^https?://[A-Za-z0-9]", u):
         return None
     low = u.lower()

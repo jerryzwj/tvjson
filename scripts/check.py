@@ -6,7 +6,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import new_session, probe, source_key  # noqa: E402
+from common import new_session, probe, shorten_vod, source_key  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -26,8 +26,17 @@ def group_entries(entries):
         })
         if e["program"] not in g["programs"]:
             g["programs"].append(e["program"])
-        if e["api"] not in [c["api"] for c in g["candidates"]]:
-            g["candidates"].append({"api": e["api"], "program": e["program"]})
+        # 既有原始长地址，也有 /vod 截断后的精简地址；精简版优先生效
+        short = shorten_vod(e["api"])
+        for api, is_short in ((short, True), (e["api"], False)):
+            exist = [c["api"] for c in g["candidates"]]
+            if api in exist:
+                if is_short:  # 同一地址既能当精简版又能当原始版时，标成精简
+                    for c in g["candidates"]:
+                        if c["api"] == api:
+                            c["short"] = True
+                continue
+            g["candidates"].append({"api": api, "program": e["program"], "short": is_short})
     return groups
 
 
@@ -63,7 +72,7 @@ def main():
         cands = []
         for c in g["candidates"]:
             r = results.get(key, {}).get(c["api"], {"ok": False, "error": "no_result"})
-            r.update({"api": c["api"], "program": c["program"]})
+            r.update({"api": c["api"], "program": c["program"], "short": bool(c.get("short"))})
             cands.append(r)
         alive = [c for c in cands if c["ok"]]
         out.append({

@@ -27,9 +27,10 @@ def load_json(path, default=None):
 
 
 def score(cand, search_ok):
-    """同指纹时选中哪条：https > 能搜索 > 延迟低。"""
+    """选哪条地址：https > /vod 截断后的精简地址 > 能搜索 > 延迟低。"""
     return (
         1 if str(cand.get("api", "")).startswith("https://") else 0,
+        1 if cand.get("short") else 0,
         1 if search_ok else 0,
         -(cand.get("ms") or 9999),
     )
@@ -97,25 +98,39 @@ def main():
                 "search": best.get("search"),
                 "adult": bool(best.get("adult")),
                 "last_ok": TODAY,
-                "fail_streak": 0,
-                "ok_count": st.get("ok_count", 0) + 1,
             })
         else:
             if not st.get("api") and item["candidates"]:
                 st["api"] = item["candidates"][0]["api"]
-            st["fail_streak"] = st.get("fail_streak", 0) + 1
-            st["fail_count"] = st.get("fail_count", 0) + 1
             errs = [c.get("error", "") for c in item["candidates"]]
             st["last_error"] = errs[0] if errs else "unknown"
 
         st["last_check"] = TODAY
-        st["history"] = (st.get("history") or [])[-history_keep + 1:]
-        st["history"].append({
+
+        # 历史按自然日去重：同一天多次运行只算一次，避免连击导致误剔除
+        hist = {h["d"]: h for h in (st.get("history") or []) if h.get("d")}
+        first_today = TODAY not in hist
+        hist[TODAY] = {
             "d": TODAY,
             "ok": bool(alive),
             "ms": (best or {}).get("ms"),
             "err": "" if alive else st.get("last_error", ""),
-        })
+        }
+        recs = [hist[d] for d in sorted(hist)][-history_keep:]
+        st["history"] = recs
+        if first_today:
+            if alive:
+                st["ok_count"] = st.get("ok_count", 0) + 1
+            else:
+                st["fail_count"] = st.get("fail_count", 0) + 1
+
+        # 连续失败天数按自然日算，而不是按运行次数
+        streak = 0
+        for h in reversed(recs):
+            if h.get("ok"):
+                break
+            streak += 1
+        st["fail_streak"] = streak
 
     # 目录里已消失、但历史上还活着的源，保留最近 7 天的记录
     for key, st in state["sources"].items():

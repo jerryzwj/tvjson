@@ -2,11 +2,19 @@
   "sources": [
     {
       "name": "星夜资源站",
-      "url": "https://xyezy.com/api.php/provide/vod/at/xmlsea/"
+      "url": "https://xyezy.com/api.php/provide/vod/"
     },
     {
       "name": "看看资源影视",
       "url": "https://f-1.cc/api.php/provide/vod/"
+    },
+    {
+      "name": "玉兔资源",
+      "url": "https://apiyutu.com/api.php/provide/vod/"
+    },
+    {
+      "name": "黑料资源网",
+      "url": "https://heiliaozyapi.com/api.php/provide/vod/"
     },
     {
       "name": "大地资源",
@@ -26,211 +34,111 @@
     },
     {
       "name": "奥斯卡资源API",
-      "url": "https://aosikazy.com/api.php/provide/vod/at/xmlsea/"
+      "url": "https://aosikazy.com/api.php/provide/vod/"
     },
     {
       "name": "奶香香资源站",
-      "url": "https://naixxzy.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "玉兔资源",
-      "url": "https://apiyutu.com/api.php/Seacms/vod/"
-    },
-    {
-      "name": "玉兔资源·xml",
-      "url": "https://apiyutu.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "黑料资源网",
-      "url": "https://heiliaozyapi.com/api.php/provide/vod/at/xml"
-    },
-    {
-      "name": "黑料资源网·seaxml",
-      "url": "https://www.heiliaozyapi.com/api.php/provide/vod/at/seaxml/"
+      "url": "https://Naixxzy.com/api.php/provide/vod/"
     },
     {
       "name": "ikun资源网",
-      "url": "https://ikunzyapi.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "ikun资源网·xml",
-      "url": "https://ikunzyapi.com/api.php/seaxml/vod/at/xml"
+      "url": "https://ikunzyapi.com/api.php/seaxml/vod/"
     },
     {
       "name": "无水印资源网",
-      "url": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xmlsea/"
+      "url": "https://api.wsyzy.net/api.php/provide/vod/"
+    },
+    {
+      "name": "厂长资源",
+      "url": "https://api.changzhang.tv/api.php/seacms/vod/"
+    },
+    {
+      "name": "西瓜资源",
+      "url": "https://caiji.xgzyapi.com/api.php/seacms/vod/"
     },
     {
       "name": "云解析资源网",
       "url": "https://api.yparse.com/api/json"
     },
     {
-      "name": "厂长资源",
-      "url": "https://api.changzhang.tv/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "厂长资源·xml",
-      "url": "https://api.changzhang.tv/api.php/seacms/vod/at/xml/"
-    },
-    {
-      "name": "厂长资源·2",
-      "url": "https://api.changzhang.tv/api.php/feifei/vod/at/xml/"
-    },
-    {
       "name": "大众资源",
-      "url": "https://cdn.dzzyapi.com/api.php/provide/vod/at/xmlsea/"
+      "url": "https://cdn.dzzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "新芒果资源站",
-      "url": "https://caiji.mgzyapi.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "西瓜资源",
-      "url": "https://caiji.xgzyapi.com/api.php/provide/vod/"
-    },
-    {
-      "name": "西瓜资源·xml",
-      "url": "https://caiji.xgzyapi.com/api.php/seacms/vod/at/xml/"
+      "url": "https://caiji.mgzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "魔都动漫资源",
-      "url": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/?cms=1"
+      "url": "https://www.mdzyapi.com/api.php/provide/vod/?cms=1"
     },
     {
       "name": "吉吉资源采集接口，支持苹果/海洋/飞飞/赞片",
       "url": "http://caiji.jjzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "吉吉资源采集接口，支持苹果/海洋/飞飞/赞片·xml",
-      "url": "http://caiji.jjzyapi.com/api.php/seacms/vod/at/xml/"
-    },
-    {
-      "name": "虎牙资源",
-      "url": "https://www.huyaapi.com/api.php/provide/vod/at/xmlsea/"
-    },
-    {
-      "name": "光速资源站",
-      "url": "https://api.guangsuapi.com/api.php/provide/vod/"
-    },
-    {
-      "name": "光速资源站·gsyun",
-      "url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsyun/at/xmlsea/"
+      "name": "百度资源",
+      "url": "https://api.apibdzy.com/api.php/provide/vod/"
     },
     {
       "name": "巨量资源网采集接口，苹果/海洋/飞飞/赞片",
-      "url": "https://api.juliang.live/api/provide/vod/at/xml/"
-    },
-    {
-      "name": "百度资源",
-      "url": "https://api.apibdzy.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "百度资源·dbm3u8",
-      "url": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xmlsea/"
+      "url": "https://api.juliang.live/api/provide/vod/"
     },
     {
       "name": "茅台资源站",
-      "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/"
+      "url": "https://caiji.maotaizy.cc/api.php/provide/vod/"
     },
     {
-      "name": "茅台资源站·mtyun",
-      "url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtyun/at/xml/"
+      "name": "鸭鸭（丫丫）资源网",
+      "url": "https://cj.yayazy.net/api.php/provide/vod/"
     },
     {
       "name": "最大资源网",
-      "url": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xmlsea/"
-    },
-    {
-      "name": "最大资源网·2",
       "url": "https://api.zuidapi.com/api.php/provide/vod/"
-    },
-    {
-      "name": "360资源站",
-      "url": "https://360zyzz.com/api.php/provide/vod"
-    },
-    {
-      "name": "360资源站·xml",
-      "url": "https://360zyzz.com/api.php/seaxml/vod/at/xml"
-    },
-    {
-      "name": "U酷资源网",
-      "url": "https://api.ukuapi88.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "如意资源网",
-      "url": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "如意资源网·xml",
-      "url": "https://cj.rycjapi.com/api.php/seacms/vod/at/xml/"
-    },
-    {
-      "name": "无尽资源网",
-      "url": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/xmlsea/"
-    },
-    {
-      "name": "无尽资源网·2",
-      "url": "https://api.wujinapi.me/api.php/provide/vod/"
-    },
-    {
-      "name": "暴风资源网",
-      "url": "https://bfzyapi.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "暴风资源网·2",
-      "url": "https://bfzyapi.com/api.php/Seacms/vod/"
     },
     {
       "name": "极速资源网",
       "url": "https://jszyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "极速资源网·jsyun",
-      "url": "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/xmlsea"
-    },
-    {
-      "name": "极速资源网·jsm3u8",
-      "url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/xml"
-    },
-    {
-      "name": "电影天堂采集综合资源接口",
-      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/"
-    },
-    {
-      "name": "电影天堂采集综合资源接口·xml",
-      "url": "http://caiji.dyttzyapi.com/api.php/seacms/vod/at/xml/"
-    },
-    {
-      "name": "速播资源",
-      "url": "https://subocj.com/api.php/provide/vod"
-    },
-    {
-      "name": "速播资源·subyun",
-      "url": "https://subocj.com/api.php/provide/vod/from/subyun/at/xmlsea"
-    },
-    {
-      "name": "速播资源·subm3u8",
-      "url": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml"
-    },
-    {
       "name": "量子资源网资源",
       "url": "https://cj.lziapi.com/api.php/provide/vod/"
     },
     {
-      "name": "量子资源网资源·xml",
-      "url": "https://cj.lziapi.com/api.php/seacms/vod/at/xml/"
+      "name": "360资源站",
+      "url": "https://360zyzz.com/api.php/seaxml/vod/"
     },
     {
-      "name": "量子资源网资源·2",
-      "url": "https://cj.lziapi.com/api.php/providedown/vod/at/xml/"
+      "name": "如意资源网",
+      "url": "https://cj.rycjapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "无尽资源网",
+      "url": "https://api.wujinapi.me/api.php/provide/vod/"
+    },
+    {
+      "name": "暴风资源网",
+      "url": "https://bfzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "电影天堂采集综合资源接口",
+      "url": "http://caiji.dyttzyapi.com/api.php/seacms/vod/"
     },
     {
       "name": "非凡资源网",
       "url": "http://api.ffzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "非凡资源网·xml",
-      "url": "http://api.ffzyapi.com/api.php/seacms/vod/at/xml/"
+      "name": "U酷资源网",
+      "url": "https://api.ukuapi88.com/api.php/provide/vod/"
+    },
+    {
+      "name": "新浪资源",
+      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/"
+    },
+    {
+      "name": "红牛资源",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod/"
     },
     {
       "name": "优质资源库",
@@ -250,51 +158,15 @@
     },
     {
       "name": "天涯影视资源网",
-      "url": "https://tyyszyapi.com/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "新浪资源",
-      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xmlsea/"
-    },
-    {
-      "name": "新浪资源·xlyun",
-      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlyun/at/xmlsea/"
+      "url": "https://tyyszyapi.com/api.php/provide/vod/"
     },
     {
       "name": "爱奇艺资源站",
-      "url": "https://www.iqiyizyapi.com/api.php/provide/vod/at/xml/?cms=1"
+      "url": "https://www.iqiyizyapi.com/api.php/provide/vod/"
     },
     {
       "name": "猫眼资源站",
-      "url": "https://api.maoyanapi.top/api.php/provide/vod/at/xml/"
-    },
-    {
-      "name": "红牛资源",
-      "url": "https://www.hongniuzy2.com/api.php/provide/vod/at/xmlsea/"
-    },
-    {
-      "name": "红牛资源·hnyun",
-      "url": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnyun/at/xml/"
-    },
-    {
-      "name": "豪华资源网",
-      "url": "https://hhzyapi.com/api.php/provide/vod/"
-    },
-    {
-      "name": "豪华资源网·hhyun",
-      "url": "https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/xmlsea"
-    },
-    {
-      "name": "豪华资源网·hhm3u8",
-      "url": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/xml"
-    },
-    {
-      "name": "金鹰资源网苹果CMS",
-      "url": "https://jyzyapi.com/provide/vod/at/xml/"
-    },
-    {
-      "name": "金鹰资源网苹果CMS·jinyingm3u8",
-      "url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/"
+      "url": "https://api.maoyanapi.top/api.php/provide/vod/"
     }
   ]
 }

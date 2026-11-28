@@ -82,14 +82,33 @@ def root_domain(host):
     return ".".join(parts[-2:])
 
 
-def source_key(api_url):
-    """去重第一层：同一接口的不同输出格式 / 不同子域名收敛到同一个 key。"""
+def clean_url(raw):
+    """清掉 URL 里的空白字符和写坏的协议头（如 'https: //'、'https//'、'https,//'）。"""
+    u = re.sub(r"\s+", "", raw or "")
+    if not u:
+        return ""
+    u = u.replace(",//", "://")
+    u = re.sub(r"(?i)^(https|http)\s*:?\s*/{0,3}", lambda m: m.group(1).lower() + "://", u)
+    return u
+
+
+def shorten_vod(api_url):
+    """把 /vod 之后的字段（at/xml、at/xmlsea、from/xxx/... 等）全部截掉。"""
     p = urlsplit(api_url.strip())
+    m = re.search(r"/vod", p.path or "", re.I)
+    if not m:
+        return api_url.strip()
+    path = (p.path or "")[:m.end()] + "/"
+    return urlunsplit((p.scheme, p.netloc, path, p.query, ""))
+
+
+def source_key(api_url):
+    """去重 key：同域名收敛；带 /vod 的接口一律视为该域的一个源。"""
+    p = urlsplit(clean_url(api_url))
     host = root_domain(p.hostname or "")
-    path = _FORMAT_TAIL.sub("/at/", p.path or "/")
-    # 只写到 /provide/vod/ 的，等价于 /provide/vod/at/xml/
-    path = re.sub(r"(/provide/vod)/?$", r"\1/at/", path)
-    path = re.sub(r"(/provide/art)/?$", r"\1/", path)
+    if re.search(r"/vod", p.path or "", re.I):
+        return f"{host}#vod"
+    path = re.sub(r"(/provide/art)/?$", r"\1/", p.path or "/")
     if not path.endswith("/"):
         path += "/"
     return f"{host}{path}"
@@ -97,7 +116,7 @@ def source_key(api_url):
 
 def build_query_url(api_url, **params):
     """在接口地址上叠加查询参数，去掉原有的 ac 等参数。"""
-    p = urlsplit(api_url)
+    p = urlsplit(clean_url(api_url))
     q = dict(parse_qsl(p.query))
     q.update({k: v for k, v in params.items() if v is not None})
     return urlunsplit((p.scheme, p.netloc, p.path, urlencode(q), ""))
