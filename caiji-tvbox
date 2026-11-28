@@ -10,11 +10,11 @@
     },
     {
       "name": "玉兔资源",
-      "url": "https://apiyutu.com/api.php/provide/vod/"
+      "url": "https://apiyutu.com/api.php/Seacms/vod/"
     },
     {
       "name": "黑料资源网",
-      "url": "https://www.heiliaozyapi.com/api.php/provide/vod/"
+      "url": "https://heiliaozyapi.com/api.php/provide/vod/"
     },
     {
       "name": "大地资源",
@@ -38,7 +38,7 @@
     },
     {
       "name": "奶香香资源站",
-      "url": "https://naixxzy.com/api.php/provide/vod/"
+      "url": "https://Naixxzy.com/api.php/provide/vod/"
     },
     {
       "name": "ikun资源网",
@@ -50,11 +50,11 @@
     },
     {
       "name": "厂长资源",
-      "url": "https://api.changzhang.tv/api.php/feifei/vod/"
+      "url": "https://api.changzhang.tv/api.php/seacms/vod/"
     },
     {
       "name": "西瓜资源",
-      "url": "https://caiji.xgzyapi.com/api.php/provide/vod/"
+      "url": "https://caiji.xgzyapi.com/api.php/seacms/vod/"
     },
     {
       "name": "云解析资源网",
@@ -74,7 +74,7 @@
     },
     {
       "name": "吉吉资源采集接口，支持苹果/海洋/飞飞/赞片",
-      "url": "http://caiji.jjzyapi.com/api.php/provide/vod/"
+      "url": "http://caiji.jjzyapi.com/api.php/seacms/vod/"
     },
     {
       "name": "百度资源",
@@ -122,11 +122,11 @@
     },
     {
       "name": "电影天堂采集综合资源接口",
-      "url": "http://caiji.dyttzyapi.com/api.php/seacms/vod/"
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/"
     },
     {
       "name": "非凡资源网",
-      "url": "http://api.ffzyapi.com/api.php/provide/vod/"
+      "url": "http://api.ffzyapi.com/api.php/seacms/vod/"
     },
     {
       "name": "U酷资源网",
